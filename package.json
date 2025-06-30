@@ -1,0 +1,21 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrapes business email addresses from instagram",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Camillus",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "mongoose": "^8.16.1",
+    "puppeteer": "^24.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
